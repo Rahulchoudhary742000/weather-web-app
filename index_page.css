@@ -1,0 +1,89 @@
+body{
+    
+    background-image: url("23279.jpg");
+     background-size: auto;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.searchbar{
+margin-bottom: auto;
+margin-top: auto;
+height: 50px;
+background-color:#B6B6B6;
+border-radius: 30px;
+padding: 10px;
+}
+
+.search_input{
+color: white;
+border: 0;
+outline: 0;
+background: none;
+width: 0;
+caret-color:transparent;
+line-height: 30px;
+transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input{
+padding: 0 10px;
+width: 450px;
+caret-color:red;
+transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon{
+background: white;
+color: #e74c3c;
+}
+
+.search_icon{
+height: 30px;
+width: 30px;
+float: right;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+color:white;
+text-decoration:none;
+}
+b{
+    font-family:Unbounded;
+    font-size: 40px;
+}
+#city{
+   
+    font-family:Roboto;
+    font-size: 20px;
+}
+.col-sm-6.img{
+    margin-top: -80px;
+}
+.col-sm-2.card {
+    margin-right: auto;
+    margin-left: auto;
+    width: 20px;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    height: 60px;
+    border-radius: 5px;
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    text-align: center;
+}
+.col-sm-12.all{
+    margin-top:-40px ;
+}
+  
+.col-sm-4.time{
+    margin-top:-100px;
+    font-size: 16px;
+}
+#sky_status{
+    padding-left: 270px;
+    margin-top: -50px;
+}
